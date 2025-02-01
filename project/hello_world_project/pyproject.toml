@@ -1,0 +1,18 @@
+[project]
+name = "hello-world-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aiza368", email = "graphiczone750@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hello-world-project = "hello_world_project:main"
+Uni-project = "hello_world_project.hello_world:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
